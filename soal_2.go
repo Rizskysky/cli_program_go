@@ -17,14 +17,13 @@ func lowerFirst(s string) string {
 }
 
 func stringConvertion(input string) string {
-	lorem := strings.Fields(input)
-	result := lorem
-	for i := 0; i < len(lorem); i++ {
-		word := strings.ToUpper(lorem[i])
+	data := strings.Fields(input)
+	for i := 0; i < len(data); i++ {
+		word := strings.ToUpper(data[i])
 		word = lowerFirst(word)
-		result[i] = word
+		data[i] = word
 	}
-	return strings.Join((result), " ")
+	return strings.Join((data), " ")
 }
 
 func unique(strSlice []string) []string {
