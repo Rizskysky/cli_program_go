@@ -119,7 +119,7 @@ func command() string {
 func main() {
 	cmdstring := command()
 
-	input := "Lorem Ipsum Dolor Sit Amet babang Biji"
+	input := "Lorem Ipsum Dolor Sit Amet"
 	inputKedua := "Team Engineering PT. Raksasa Laju Lintang "
 	inputDewa := ` Go , also known as Golang , [14] is a statically typed , compiled programming language designed at
 	Google [15] by Robert Griesemer, Rob Pike , and Ken Thompson . [12] Go is syntactically similar to C ,
@@ -143,7 +143,7 @@ func main() {
 	In August 2018, the Go principal contributors published two ″draft designs″ for new language
 	features, Generics and error handling , and asked Go users to submit feedback on them. [36] [37] Lack
 	of support for generic programming and the verbosity of error handling in Go 1.x had drawn
-	considerable criticism . `
+	considerable criticism . GOLANG golang GOlaNg`
 
 	switch cmdstring {
 	case "soalPertama":
